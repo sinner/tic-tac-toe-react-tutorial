@@ -3,14 +3,6 @@ import { Square } from './Square';
 
 export class Board extends React.Component {
 
-  constructor () {
-    super();
-    this.state = {
-      squares: Array(9).fill(null),
-      xIsNext: true
-    }
-  }
-
   handleClick(i) {
     // We call .slice() to copy the squares array instead of mutating the existing array.
     const squares = this.state.squares.slice();
