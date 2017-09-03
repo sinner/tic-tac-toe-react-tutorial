@@ -9,6 +9,16 @@ body {
   margin: 20px;
 }
 
+a {
+  cursor: pointer;
+  color: blue;
+}
+
+a:hover {
+  text-decoration: underline;
+  opacity: 0.8;
+}
+
 ol, ul {
   padding-left: 30px;
 }
